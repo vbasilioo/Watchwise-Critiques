@@ -28,7 +28,7 @@ class SeriesController extends Controller{
             $serie->capa = $path;
 
             $serie->save();
-            return redirect('/series');
+            return redirect('/');
         }
 
         return response()->json(['error' => 'Imagem da capa não encontrada.'], 400);

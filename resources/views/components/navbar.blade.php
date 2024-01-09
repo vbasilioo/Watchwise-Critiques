@@ -3,8 +3,6 @@
             <a class="navbar-brand">Watchwise Critiques</a>
             <form class="d-flex" method="POST" action="{{ route('search.series') }}">
                   @csrf
-                  <input class="form-control me-2" type="search" name="search" placeholder="Pesquisar" aria-label="Search">
-                  <button class="btn btn-outline-secondary me-2" type="submit">Pesquisar</button>
                   <a href="/series/criar" class="btn btn-primary">Adicionar</a>
             </form>
       </div>
